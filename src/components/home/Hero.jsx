@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import Link from "next/link";
@@ -14,6 +15,12 @@ import heroBg2 from "@/assets/img/hero2.jpg";
 import heroBg3 from "@/assets/img/hero3.jpg";
 
 export default function Hero() {
+    const [domLoaded, setDomLoaded] = useState(false);
+
+    useEffect(() => {
+        setDomLoaded(true);
+    }, []);
+
   const slides = [
     {
       src: heroBg1,
@@ -32,12 +39,14 @@ export default function Hero() {
     },
   ];
 
+  if (!domLoaded) return <section className="h-screen bg-amber-950" />;
+
   return (
-    <section className="relative w-full h-[90vh] overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden bg-slate-50">
       <Swiper
         modules={[Autoplay, EffectFade, Pagination]}
         effect="fade"
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 6000, disableOnInteraction: false }}
         pagination={{ 
           clickable: true,
           modifierClass: "hero-pagination-",
@@ -48,8 +57,8 @@ export default function Hero() {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             {({ isActive }) => (
-              <div className="relative w-full h-[90vh] flex items-center justify-center">
-                {/* BACKGROUND: Clean & Direct */}
+              <div className="relative w-full h-full flex items-center justify-center">
+                {/* BACKGROUND */}
                 <div className="absolute inset-0">
                   <Image
                     src={slide.src}
@@ -58,11 +67,10 @@ export default function Hero() {
                     className="object-cover"
                     priority={index === 0}
                   />
-                  {/* Overlay escuro uniforme e suave */}
                   <div className="absolute inset-0 bg-black/50"></div>
                 </div>
 
-                {/* CONTENT: Centralizado com Animações */}
+                {/* CONTENT */}
                 <div className="relative z-10 text-center px-6 max-w-4xl">
                   <div className={`${isActive ? "animate-content-in" : "opacity-0"}`}>
                     <h1 className="text-white text-3xl md:text-5xl font-bold leading-tight tracking-tight mb-6">
@@ -76,14 +84,14 @@ export default function Hero() {
                     <div className="flex flex-wrap justify-center gap-4">
                       <Link
                         href="/contato"
-                        className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-3.5 rounded-sm font-bold uppercase tracking-widest text-xs transition-all shadow-lg active:scale-95"
+                        className="bg-amber-500 hover:bg-amber-400 text-white px-8 py-3.5 rounded-sm font-bold uppercase tracking-widest text-xs transition-all shadow-lg"
                       >
                         Pedir Orçamento
                       </Link>
 
                       <Link
                         href="/projetos"
-                        className="border border-amber-300 text-amber-300 hover:bg-amber-300 hover:text-amber-950 px-8 py-3.5 rounded-sm font-bold uppercase tracking-widest text-xs transition-all active:scale-95"
+                        className="border border-amber-300 text-amber-300 hover:bg-amber-300 hover:text-amber-950 px-8 py-3.5 rounded-sm font-bold uppercase tracking-widest text-xs transition-all"
                       >
                         Ver Projetos
                       </Link>
@@ -97,15 +105,11 @@ export default function Hero() {
       </Swiper>
 
       <style jsx global>{`
-        /* Animação de entrada dos textos */
-        .animate-content-in {
-          animation: slideUpFade 1s ease-out forwards;
-        }
-
+        /* Animação de entrada suave */
         @keyframes slideUpFade {
           from {
             opacity: 0;
-            transform: translateY(30px);
+            transform: translateY(20px);
           }
           to {
             opacity: 1;
@@ -113,27 +117,33 @@ export default function Hero() {
           }
         }
 
-        /* Paginação Centralizada e Estilizada */
+        .animate-content-in {
+          animation: slideUpFade 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
+
+        /* Paginação Customizada com a sua Paleta */
         .hero-pagination-bullets {
           bottom: 40px !important;
           display: flex;
           justify-content: center;
-          gap: 12px;
+          gap: 10px;
           width: 100% !important;
         }
 
         .hero-pagination-bullet {
-          width: 12px;
-          height: 4px;
-          background: rgba(255, 255, 255, 0.4);
-          border-radius: 2px;
-          transition: all 0.3s ease;
+          width: 10px;
+          height: 3px;
+          background: #E0C67A !important; /* amber-300 - Dourado claro sutil */
+          opacity: 0.4;
+          border-radius: 99px;
+          transition: all 0.4s ease;
           cursor: pointer;
         }
 
         .hero-pagination-bullet-active {
-          background: #C9A85A !important; /* amber-500 */
-          width: 30px;
+          background: #C9A85A !important; /* amber-500 - Dourado principal */
+          opacity: 1 !important;
+          width: 35px; /* Expande para dar foco */
         }
       `}</style>
     </section>
