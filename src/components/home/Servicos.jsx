@@ -44,7 +44,7 @@ export default function Servicos() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-amber-950 leading-tight tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-amber-950 leading-tight tracking-tight">
             Soluções completas em <span className="text-amber-600">Engenharia e Construção</span>
           </h2>
 

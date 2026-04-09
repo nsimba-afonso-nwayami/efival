@@ -18,7 +18,7 @@ export default function CTAFinal() {
       <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
 
         <motion.h2 
-          className="text-3xl md:text-5xl font-bold text-white leading-tight"
+          className="text-3xl md:text-4xl font-bold text-white leading-tight"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

@@ -53,7 +53,7 @@ export default function Projetos() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-amber-950">
+          <h2 className="text-3xl md:text-4xl font-bold text-amber-950">
             Projetos que refletem <span className="text-amber-600">excelência</span>
           </h2>
 

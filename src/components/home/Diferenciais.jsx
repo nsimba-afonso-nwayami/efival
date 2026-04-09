@@ -44,7 +44,7 @@ export default function Diferenciais() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight tracking-tight">
             Por que escolher a <span className="text-amber-500">EFIVAL</span>?
           </h2>
 

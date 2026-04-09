@@ -19,7 +19,7 @@ export default function Contato() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-amber-950 leading-tight tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-amber-950 leading-tight tracking-tight">
             Entre em <span className="text-amber-600">Contacto</span>
           </h2>
 
