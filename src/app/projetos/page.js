@@ -1,4 +1,8 @@
-import BannerServicos from "@/components/servicos/BannerServicos";
+import BannerProjetos from "@/components/projetos/BannerProjetos";
+import ProjetosCatalogo from "@/components/projetos/ProjetosCatalogo";
+import ProjetosDestaque from "@/components/projetos/ProjetosDestaque";
+import ProjetosFiltro from "@/components/projetos/ProjetosFiltro";
+import CtaProjetos from "@/components/projetos/CtaProjetos";
 
 // SEO otimizado para página Projetos
 export const metadata = {
@@ -46,7 +50,11 @@ export const metadata = {
 export default function Projetos() {
   return (
     <>
-      <BannerServicos />
+      <BannerProjetos />
+      <ProjetosCatalogo />
+      <ProjetosDestaque />
+      <ProjetosFiltro />
+      <CtaProjetos />
     </>
   );
 }
