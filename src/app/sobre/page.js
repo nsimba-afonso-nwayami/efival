@@ -1,4 +1,8 @@
 import BannerSobre from "@/components/sobre/BannerSobre";
+import InstitucionalSobre from "@/components/sobre/InstitucionalSobre";
+import MissaoVisaoValores from "@/components/sobre/MissaoVisaoValores";
+import Timeline from "@/components/sobre/Timeline";
+import CTASobre from "@/components/sobre/CTASobre";
 
 // SEO otimizado para página Sobre
 export const metadata = {
@@ -42,6 +46,10 @@ export default function Sobre() {
   return (
     <>
       <BannerSobre />
+      <InstitucionalSobre />
+      <MissaoVisaoValores />
+      <Timeline />
+      <CTASobre />
     </>
   );
 }
