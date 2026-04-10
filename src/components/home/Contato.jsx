@@ -114,7 +114,7 @@ export default function Contato() {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105291.77111161467!2d13.20170168145374!3d-8.853353711556109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f15cdc8d2c7d%3A0x850c1c5c5ecc5a92!2sLuanda!5e1!3m2!1spt-PT!2sao!4v1775821804479!5m2!1spt-PT!2sao"
             className="w-full h-full border-0 grayscale hover:grayscale-0 transition-all duration-1000"
             loading="lazy"
-            allowFullScreen
+            allowFullScreen referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </motion.div>
 
