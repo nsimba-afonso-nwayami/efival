@@ -1,4 +1,7 @@
 import BannerServicos from "@/components/servicos/BannerServicos";
+import ListaServicos from "@/components/servicos/ListaServicos";
+import CatalogoServicos from "@/components/servicos/CatalogoServicos";
+import CtaFinal from "@/components/servicos/CtaFinal";
 
 // SEO otimizado para página Serviços
 export const metadata = {
@@ -47,6 +50,9 @@ export default function Servicos() {
   return (
     <>
       <BannerServicos />
+      <ListaServicos />
+      <CatalogoServicos />
+      <CtaFinal />
     </>
   );
 }
