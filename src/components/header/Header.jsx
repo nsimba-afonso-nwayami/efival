@@ -27,7 +27,7 @@ export default function Header() {
         {/* LOGO */}
         <Link
           href="/"
-          className="group flex flex-col items-start leading-none z-[60]"
+          className="group flex flex-col items-start leading-none z-60"
         >
           <span className={`font-extrabold text-2xl tracking-tighter transition-colors duration-300 
             ${(scrolled || open) ? "text-amber-800" : "text-white"}`}>
@@ -42,7 +42,7 @@ export default function Header() {
         {/* MOBILE MENU BUTTON */}
         <button
           onClick={() => setOpen(!open)}
-          className={`md:hidden text-2xl focus:outline-none transition-colors z-[60] 
+          className={`md:hidden text-2xl focus:outline-none transition-colors z-60 
             ${(scrolled || open) ? "text-amber-800" : "text-white"}`}
           aria-label="Menu"
         >
