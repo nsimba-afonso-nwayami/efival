@@ -1,4 +1,4 @@
-import Link from "next/link";
+import BannerSobre from "@/components/sobre/BannerSobre";
 
 // SEO otimizado para página Sobre
 export const metadata = {
@@ -40,7 +40,8 @@ export const metadata = {
 
 export default function Sobre() {
   return (
-    <section>
-    </section>
+    <>
+      <BannerSobre />
+    </>
   );
 }
