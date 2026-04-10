@@ -1,11 +1,14 @@
-import BannerServicos from "@/components/servicos/BannerServicos";
+import BannerContato from "@/components/contato/BannerContato";
+import ContatoSection from "@/components/contato/ContatoSection";
+import ContactForm from "@/components/contato/ContactForm";
+import CTAFinalContato from "@/components/contato/CTAFinalContato";
 
-// SEO otimizado para página Contacto
+// SEO otimizado para página Contato
 export const metadata = {
-  title: "Contacto EFIVAL | Orçamento de Construção Civil em Luanda",
+  title: "Contato EFIVAL | Orçamento de Construção Civil em Luanda",
 
   description:
-    "Entre em contacto com a EFIVAL para solicitar orçamento de construção civil em Angola. Estamos disponíveis para obras residenciais, comerciais, reabilitação de edifícios e projetos de engenharia em Luanda e outras províncias.",
+    "Entre em contato com a EFIVAL para solicitar orçamento de construção civil em Angola. Estamos disponíveis para obras residenciais, comerciais, reabilitação de edifícios e projetos de engenharia em Luanda e outras províncias.",
 
   keywords: [
     "contacto EFIVAL",
@@ -17,11 +20,11 @@ export const metadata = {
     "engenharia civil Luanda contacto",
     "reabilitação de edifícios Angola contacto",
     "serviços de construção Angola contacto",
-    "EFIVAL contacto"
+    "EFIVAL contato"
   ],
 
   openGraph: {
-    title: "Contacto EFIVAL | Orçamento de Construção Civil em Angola",
+    title: "Contato EFIVAL | Orçamento de Construção Civil em Angola",
     description:
       "Fale com a EFIVAL e solicite orçamento para construção civil, obras e engenharia em Luanda e Angola.",
     url: "https://seudominio.com/contacto",
@@ -46,7 +49,10 @@ export const metadata = {
 export default function Contato() {
   return (
     <>
-      <BannerServicos />
+      <BannerContato />
+      <ContatoSection />
+      <ContactForm />
+      <CTAFinalContato />
     </>
   );
 }
