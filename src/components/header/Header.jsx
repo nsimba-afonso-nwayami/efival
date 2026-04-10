@@ -18,7 +18,7 @@ export default function Header() {
       className={`
         fixed top-0 left-0 w-full z-50 transition-all duration-500
         ${scrolled 
-          ? "bg-white/90 backdrop-blur-lg py-3 shadow-lg border-b border-slate-200" 
+          ? "bg-white/95 backdrop-blur-lg py-3 shadow-lg border-b border-slate-200" 
           : "bg-transparent py-6 border-b border-transparent"}
       `}
     >
@@ -27,12 +27,14 @@ export default function Header() {
         {/* LOGO */}
         <Link
           href="/"
-          className="group flex flex-col items-start leading-none"
+          className="group flex flex-col items-start leading-none z-[60]"
         >
-          <span className={`font-extrabold text-2xl tracking-tighter transition-colors duration-300 ${scrolled ? "text-amber-800" : "text-white"}`}>
+          <span className={`font-extrabold text-2xl tracking-tighter transition-colors duration-300 
+            ${(scrolled || open) ? "text-amber-800" : "text-white"}`}>
             EFIVAL
           </span>
-          <span className={`text-[10px] uppercase tracking-[0.2em] font-medium transition-colors duration-300 ${scrolled ? "text-amber-600" : "text-white/80"}`}>
+          <span className={`text-[10px] uppercase tracking-[0.2em] font-medium transition-colors duration-300 
+            ${(scrolled || open) ? "text-amber-600" : "text-white/80"}`}>
             Engenharia & Valor
           </span>
         </Link>
@@ -40,7 +42,8 @@ export default function Header() {
         {/* MOBILE MENU BUTTON */}
         <button
           onClick={() => setOpen(!open)}
-          className={`md:hidden text-2xl focus:outline-none transition-colors ${scrolled ? "text-amber-800" : "text-white"}`}
+          className={`md:hidden text-2xl focus:outline-none transition-colors z-[60] 
+            ${(scrolled || open) ? "text-amber-800" : "text-white"}`}
           aria-label="Menu"
         >
           <i className={`fas ${open ? "fa-times" : "fa-bars"} transition-transform duration-300 ${open ? "rotate-90" : ""}`}></i>
@@ -49,15 +52,14 @@ export default function Header() {
         {/* NAVIGATION */}
         <nav
           className={`
-            absolute md:static left-0 top-full w-full md:w-auto
-            ${scrolled || open ? "bg-white md:bg-transparent" : "bg-transparent"}
-            flex flex-col md:flex-row items-center gap-8
-            px-8 md:px-0 py-8 md:py-0
-            font-medium
-            transition-all duration-300 ease-in-out
+            absolute md:static left-0 top-0 h-screen md:h-auto w-full md:w-auto
+            bg-white md:bg-transparent
+            flex flex-col md:flex-row items-center justify-center md:justify-end gap-8
+            px-8 md:px-0
+            transition-all duration-500 ease-in-out
             ${open 
-              ? "opacity-100 translate-y-0 visible border-b border-slate-200 shadow-xl" 
-              : "opacity-0 -translate-y-4 invisible md:visible md:opacity-100 md:translate-y-0"
+              ? "opacity-100 translate-x-0 visible" 
+              : "opacity-0 translate-x-full invisible md:visible md:opacity-100 md:translate-x-0"
             }
           `}
         >
@@ -73,12 +75,16 @@ export default function Header() {
               href={item.href}
               onClick={() => setOpen(false)}
               className={`
-                relative group text-sm uppercase tracking-widest transition-colors
-                ${scrolled ? "text-slate-700 hover:text-amber-600" : "text-white md:text-white hover:text-amber-200"}
+                relative group text-sm uppercase tracking-widest transition-colors font-semibold
+                ${open 
+                  ? "text-slate-700 hover:text-amber-600" // Menu Mobile Aberto
+                  : scrolled 
+                    ? "text-slate-700 hover:text-amber-600" // Desktop com Scroll
+                    : "text-white hover:text-amber-200"} // Desktop no topo (Transparente)
               `}
             >
               {item.name}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-500 transition-all duration-300 group-hover:w-full"></span>
+              <span className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-500 transition-all duration-300 group-hover:w-full`}></span>
             </Link>
           ))}
 
@@ -87,7 +93,6 @@ export default function Header() {
             href="/contato"
             onClick={() => setOpen(false)}
             className="
-              relative overflow-hidden
               bg-amber-500 hover:bg-amber-600
               text-white px-7 py-2.5 rounded-sm
               text-sm font-bold uppercase tracking-wider
