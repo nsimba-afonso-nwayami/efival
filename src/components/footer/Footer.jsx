@@ -18,13 +18,14 @@ export default function Footer() {
                 EFIVAL
               </span>
               <span className="text-[11px] uppercase tracking-[0.45em] text-amber-600 block mt-2 font-medium">
-                Engineering & Value
+                Arquitetura & Design Interior
               </span>
             </Link>
             
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
-              Especialistas em transformar projetos complexos em realidades sólidas. 
-              A EFIVAL combina rigor técnico com inovação para entregar o mais alto padrão da engenharia em Angola.
+              Criamos espaços que refletem identidade, sofisticação e funcionalidade. 
+              A EFIVAL desenvolve projetos de arquitetura e design interior que unem estética contemporânea, 
+              conforto e atenção aos detalhes, elevando a experiência de viver e trabalhar em Angola.
             </p>
 
             {/* Redes Sociais */}
