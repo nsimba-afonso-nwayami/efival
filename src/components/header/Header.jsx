@@ -35,7 +35,7 @@ export default function Header() {
           </span>
           <span className={`text-[10px] uppercase tracking-[0.2em] font-medium transition-colors duration-300 
             ${(scrolled || open) ? "text-amber-600" : "text-white/80"}`}>
-            Engenharia & Valor
+            Arquitetura & Design Interior
           </span>
         </Link>
 
