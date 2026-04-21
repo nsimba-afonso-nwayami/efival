@@ -12,23 +12,47 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "EFIVAL | Construção Civil, Obras e Engenharia em Luanda",
+  title: "EFIVAL | Arquitetura e Design Interior em Luanda, Angola",
 
   description:
-    "A EFIVAL é uma empresa de construção civil em Luanda especializada em obras residenciais e comerciais, reabilitação de edifícios, engenharia civil e gestão de projetos em Angola.",
+    "A EFIVAL é um estúdio de arquitetura e design interior em Luanda, Angola, especializado na criação de espaços residenciais e comerciais modernos, funcionais e personalizados.",
 
   keywords: [
-    "Construção civil Angola",
-    "Empresa de construção Luanda",
-    "Obras residenciais Angola",
-    "Obras comerciais Luanda",
-    "Reabilitação de edifícios Angola",
-    "Engenharia civil Luanda",
-    "Empreiteiro Angola",
-    "Gestão de obras Luanda",
-    "Projetos de construção Angola",
-    "EFIVAL"
+    "arquitetura Angola",
+    "arquitetos em Luanda",
+    "design de interiores Angola",
+    "design interior Luanda",
+    "estúdio de arquitetura Angola",
+    "projetos de arquitetura Angola",
+    "interior design Luanda",
+    "casas modernas Angola",
+    "projetos residenciais Luanda",
+    "remodelação de interiores Angola",
+    "design de espaços Angola",
+    "EFIVAL arquitetura"
   ],
+
+  openGraph: {
+    title: "EFIVAL | Arquitetura e Design Interior em Luanda, Angola",
+    description:
+      "Estúdio de arquitetura e design interior em Angola, criando espaços modernos, funcionais e personalizados para residências e negócios.",
+    url: "https://seudominio.com",
+    siteName: "EFIVAL",
+    type: "website",
+    locale: "pt_AO"
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "EFIVAL | Arquitetura e Design Interior em Luanda",
+    description:
+      "Criamos espaços modernos e personalizados em arquitetura e design interior em Angola."
+  },
+
+  robots: {
+    index: true,
+    follow: true
+  }
 };
 
 export default function RootLayout({ children }) {

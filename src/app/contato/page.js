@@ -5,28 +5,28 @@ import CTAFinalContato from "@/components/contato/CTAFinalContato";
 
 // SEO otimizado para página Contato
 export const metadata = {
-  title: "Contato EFIVAL | Orçamento de Construção Civil em Luanda",
+  title: "Contato EFIVAL | Arquitetura e Design Interior em Luanda",
 
   description:
-    "Entre em contato com a EFIVAL para solicitar orçamento de construção civil em Angola. Estamos disponíveis para obras residenciais, comerciais, reabilitação de edifícios e projetos de engenharia em Luanda e outras províncias.",
+    "Entre em contato com a EFIVAL para solicitar orçamento de projetos de arquitetura e design interior em Angola. Criamos espaços residenciais e comerciais modernos e personalizados em Luanda e outras províncias.",
 
   keywords: [
     "contacto EFIVAL",
-    "empresa de construção Luanda contacto",
-    "orçamento construção civil Angola",
-    "empreiteiro em Luanda contacto",
-    "construtora Angola contacto",
-    "pedido de orçamento construção Angola",
-    "engenharia civil Luanda contacto",
-    "reabilitação de edifícios Angola contacto",
-    "serviços de construção Angola contacto",
-    "EFIVAL contato"
+    "arquitetos em Luanda contacto",
+    "design de interiores Angola contacto",
+    "orçamento arquitetura Angola",
+    "estúdio de arquitetura Luanda contacto",
+    "projetos de arquitetura Angola orçamento",
+    "design interior Luanda contacto",
+    "remodelação de interiores Angola contacto",
+    "casas modernas Angola contacto",
+    "EFIVAL contacto"
   ],
 
   openGraph: {
-    title: "Contato EFIVAL | Orçamento de Construção Civil em Angola",
+    title: "Contato EFIVAL | Arquitetura e Design Interior em Angola",
     description:
-      "Fale com a EFIVAL e solicite orçamento para construção civil, obras e engenharia em Luanda e Angola.",
+      "Fale com a EFIVAL e solicite orçamento para projetos de arquitetura e design interior em Luanda e Angola.",
     url: "https://seudominio.com/contacto",
     siteName: "EFIVAL",
     type: "website",
@@ -35,9 +35,9 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Contacto EFIVAL | Construção Civil Angola",
+    title: "Contato EFIVAL | Arquitetura e Design Interior em Angola",
     description:
-      "Solicite orçamento de construção civil em Luanda com a EFIVAL."
+      "Solicite orçamento para projetos de arquitetura e design interior em Luanda com a EFIVAL."
   },
 
   robots: {

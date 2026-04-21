@@ -6,36 +6,42 @@ import CTASobre from "@/components/sobre/CTASobre";
 
 // SEO otimizado para página Sobre
 export const metadata = {
-  title: "Sobre a EFIVAL | Empresa de Construção Civil em Angola",
+  title: "Sobre a EFIVAL | Arquitetura e Design Interior em Angola",
+
   description:
-    "Conheça a EFIVAL, empresa de construção civil em Angola especializada em obras residenciais, comerciais e reabilitação de edifícios em Luanda e outras províncias.",
+    "Conheça a EFIVAL, um estúdio de arquitetura e design interior em Angola especializado na criação de espaços residenciais e comerciais modernos, funcionais e personalizados.",
+
   keywords: [
     "EFIVAL",
-    "empresa de construção civil Angola",
-    "construtora em Luanda",
-    "sobre empresa de construção Angola",
-    "engenharia civil Angola",
-    "empreiteiro em Luanda",
-    "construção de edifícios Angola",
-    "reabilitação de imóveis Angola",
-    "gestão de obras Angola",
-    "construção residencial e comercial Angola"
+    "arquitetura Angola",
+    "arquitetos em Luanda",
+    "design de interiores Angola",
+    "estúdio de arquitetura Angola",
+    "sobre arquitetura Angola",
+    "design interior Luanda",
+    "projetos de arquitetura Angola",
+    "casas modernas Angola",
+    "remodelação de interiores Angola",
+    "design de espaços Angola"
   ],
+
   openGraph: {
-    title: "Sobre a EFIVAL | Construção Civil em Angola",
+    title: "Sobre a EFIVAL | Arquitetura e Design Interior em Angola",
     description:
-      "Conheça a EFIVAL, especialista em construção civil, engenharia e gestão de obras em Angola.",
+      "Conheça a EFIVAL, estúdio de arquitetura e design interior em Angola focado em criar espaços modernos, funcionais e personalizados.",
     url: "https://seudominio.com/sobre",
     siteName: "EFIVAL",
     type: "website",
     locale: "pt_AO"
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Sobre a EFIVAL | Construção Civil em Angola",
+    title: "Sobre a EFIVAL | Arquitetura e Design Interior em Angola",
     description:
-      "Empresa de construção civil em Angola especializada em obras residenciais e comerciais."
+      "Estúdio de arquitetura e design interior em Angola especializado em espaços modernos e personalizados."
   },
+
   robots: {
     index: true,
     follow: true

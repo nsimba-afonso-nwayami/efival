@@ -6,28 +6,28 @@ import CtaProjetos from "@/components/projetos/CtaProjetos";
 
 // SEO otimizado para página Projetos
 export const metadata = {
-  title: "Projetos de Construção Civil em Angola | Portfólio EFIVAL",
+  title: "Projetos de Arquitetura e Design Interior em Angola | EFIVAL",
 
   description:
-    "Veja os projetos realizados pela EFIVAL em Angola: obras residenciais, comerciais e reabilitação de edifícios em Luanda e outras províncias. Portfólio de construção civil com qualidade e experiência.",
+    "Conheça o portfólio da EFIVAL em Angola: projetos de arquitetura, design interior e remodelação de espaços residenciais e comerciais em Luanda e outras províncias.",
 
   keywords: [
-    "projetos de construção civil Angola",
-    "obras realizadas Luanda",
-    "portfólio construção Angola",
-    "construtora em Luanda projetos",
-    "obras residenciais Angola",
-    "obras comerciais Angola",
-    "reabilitação de edifícios Angola",
-    "engenharia civil Angola projetos",
-    "empreiteiro Angola obras",
-    "EFIVAL projetos"
+    "projetos de arquitetura Angola",
+    "portfólio arquitetura Luanda",
+    "design de interiores Angola projetos",
+    "casas modernas Angola projetos",
+    "projetos residenciais Luanda",
+    "interiores comerciais Angola",
+    "remodelação de interiores Angola",
+    "estúdio de arquitetura Angola portfólio",
+    "design de espaços Angola",
+    "EFIVAL projetos arquitetura"
   ],
 
   openGraph: {
-    title: "Projetos de Construção Civil | EFIVAL Angola",
+    title: "Projetos de Arquitetura e Design Interior | EFIVAL Angola",
     description:
-      "Conheça os projetos realizados pela EFIVAL: construção, engenharia civil e reabilitação de edifícios em Angola.",
+      "Conheça o portfólio da EFIVAL: projetos de arquitetura e design interior em Angola, com foco em espaços modernos e funcionais.",
     url: "https://seudominio.com/projetos",
     siteName: "EFIVAL",
     type: "website",
@@ -36,9 +36,9 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Projetos EFIVAL | Construção Civil em Angola",
+    title: "Projetos EFIVAL | Arquitetura e Design Interior em Angola",
     description:
-      "Portfólio de obras e projetos realizados pela EFIVAL em Angola."
+      "Portfólio de arquitetura e design interior da EFIVAL em Angola."
   },
 
   robots: {

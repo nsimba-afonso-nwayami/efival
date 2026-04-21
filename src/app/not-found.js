@@ -2,8 +2,11 @@ import Link from "next/link";
 
 // SEO Simples para página 404
 export const metadata = {
-  title: "Página não encontrada | EFIVAL",
-  description: "A página que você procura não existe ou foi movida.",
+  title: "Página não encontrada | EFIVAL Arquitetura & Design Interior",
+
+  description:
+    "A página que procura não existe ou foi movida. Volte ao site da EFIVAL para explorar os nossos projetos de arquitetura e design interior em Angola.",
+
   robots: {
     index: false,
     follow: true,

@@ -8,29 +8,30 @@ import Cta from "@/components/home/Cta";
 
 // SEO Principal otimizado
 export const metadata = {
-  title: "EFIVAL | Construção Civil em Luanda, Obras e Engenharia em Angola",
+  title: "EFIVAL | Arquitetura e Design Interior em Luanda, Angola",
 
   description:
-    "A EFIVAL é uma empresa de construção civil em Luanda, Angola, especializada em obras residenciais e comerciais, reabilitação de edifícios, engenharia civil e gestão de projetos com qualidade e segurança.",
+    "A EFIVAL é um estúdio de arquitetura e design interior em Luanda, Angola, especializado na criação de espaços residenciais e comerciais modernos, funcionais e personalizados.",
 
   keywords: [
-    "construção civil Angola",
-    "construtora em Luanda",
-    "empresa de construção Angola",
-    "obras residenciais Angola",
-    "obras comerciais Luanda",
-    "engenharia civil Angola",
-    "reabilitação de edifícios Luanda",
-    "empreiteiro em Angola",
-    "gestão de obras Angola",
-    "construção de edifícios Angola",
-    "EFIVAL"
+    "arquitetura Angola",
+    "arquitetos em Luanda",
+    "design de interiores Angola",
+    "design interior Luanda",
+    "estúdio de arquitetura Angola",
+    "projetos de arquitetura Angola",
+    "interior design Luanda",
+    "casas modernas Angola",
+    "projetos residenciais Luanda",
+    "remodelação de interiores Angola",
+    "design de espaços Angola",
+    "EFIVAL arquitetura"
   ],
 
   openGraph: {
-    title: "EFIVAL | Construção Civil em Luanda, Angola",
+    title: "EFIVAL | Arquitetura e Design Interior em Luanda, Angola",
     description:
-      "Empresa de construção civil em Angola especializada em obras, engenharia civil e gestão de projetos com qualidade e confiança.",
+      "Estúdio de arquitetura e design interior em Angola, criando espaços modernos, funcionais e personalizados para residências e negócios.",
     url: "https://seudominio.com",
     siteName: "EFIVAL",
     type: "website",
@@ -39,9 +40,9 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "EFIVAL | Construção Civil em Luanda",
+    title: "EFIVAL | Arquitetura e Design Interior em Luanda",
     description:
-      "Especialistas em construção civil, obras residenciais e comerciais em Angola."
+      "Criamos espaços modernos e personalizados em arquitetura e design interior em Angola."
   },
 
   robots: {
