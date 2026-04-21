@@ -6,28 +6,28 @@ export default function Timeline() {
   const timeline = [
     {
       year: "2015",
-      title: "Fundação da EFIVAL",
-      desc: "Início das atividades com foco em pequenas obras e serviços técnicos especializados.",
+      title: "Início da EFIVAL",
+      desc: "Fundação com foco em soluções técnicas e primeiros projetos no setor de construção e design de espaços.",
     },
     {
       year: "2017",
-      title: "Expansão de Serviços",
-      desc: "Ampliação para projetos de construção civil e reabilitação de médio porte.",
+      title: "Evolução para projetos integrados",
+      desc: "Expansão para desenvolvimento de projetos mais completos, unindo técnica e planeamento de espaços.",
     },
     {
       year: "2019",
-      title: "Projetos de Grande Escala",
-      desc: "Execução de obras industriais e comerciais com maior complexidade técnica.",
+      title: "Entrada em projetos de arquitetura",
+      desc: "Início da atuação em projetos arquitetónicos e design de interiores com maior foco estético e funcional.",
     },
     {
       year: "2022",
-      title: "Consolidação no Mercado",
-      desc: "Reconhecimento pela qualidade e cumprimento rigoroso de prazos.",
+      title: "Posicionamento no design de espaços",
+      desc: "Consolidação como referência em arquitetura e design interior, com foco em qualidade e identidade dos projetos.",
     },
     {
       year: "2025",
-      title: "Inovação & Futuro",
-      desc: "Adoção de novas tecnologias e expansão para soluções mais modernas.",
+      title: "Estúdio de arquitetura contemporânea",
+      desc: "Evolução para um estúdio especializado em criar espaços modernos, sofisticados e personalizados.",
     },
   ];
 

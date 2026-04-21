@@ -48,7 +48,7 @@ export default function BannerSobre() {
 
           {/* SUBTITLE */}
           <p className="text-amber-200 mt-6 text-lg">
-            Construindo com qualidade, inovação e compromisso em cada projeto.
+            Um estúdio de arquitetura e design interior focado em criar espaços modernos, funcionais e cheios de identidade.
           </p>
 
         </div>

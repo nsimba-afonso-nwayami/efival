@@ -7,22 +7,22 @@ export default function MissaoVisaoValores() {
     {
       title: "Missão",
       icon: "fa-bullseye",
-      desc: "Fornecer soluções completas em construção civil, garantindo qualidade, segurança e inovação em cada projeto executado.",
+      desc: "Criar espaços de arquitetura e design interior que unem estética, funcionalidade e identidade, melhorando a forma como as pessoas vivem e interagem com os ambientes.",
     },
     {
       title: "Visão",
       icon: "fa-eye",
-      desc: "Ser uma referência no setor da construção em Angola, reconhecida pela excelência, confiança e compromisso com os clientes.",
+      desc: "Ser um estúdio de referência em arquitetura e design interior em Angola, reconhecido pela criatividade, sofisticação e qualidade dos projetos desenvolvidos.",
     },
     {
       title: "Valores",
       icon: "fa-gem",
       list: [
-        "Qualidade e rigor técnico",
-        "Compromisso com prazos",
-        "Transparência e ética",
-        "Inovação contínua",
-        "Satisfação do cliente",
+        "Excelência no design",
+        "Atenção ao detalhe",
+        "Criatividade e inovação",
+        "Funcionalidade e estética",
+        "Compromisso com o cliente",
       ],
     },
   ];
