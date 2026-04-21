@@ -11,35 +11,35 @@ import projeto3 from "@/assets/img/projeto3.jpg";
 export default function ProjetosDestaque() {
   const projetos = [
     {
-      title: "Edifício Residencial Moderno",
+      title: "Residência Contemporânea",
       location: "Luanda, Angola",
-      desc: "Projeto residencial de média-alta densidade com foco em eficiência estrutural, conforto térmico e otimização de espaços habitacionais.",
+      desc: "Projeto residencial pensado para equilibrar conforto, funcionalidade e estética moderna, com integração harmoniosa dos espaços interiores e exteriores.",
       metrics: [
-        { label: "Área construída", value: "8.500 m²" },
-        { label: "Duração", value: "14 meses" },
         { label: "Tipologia", value: "Residencial" },
+        { label: "Foco", value: "Conforto & Estética" },
+        { label: "Abordagem", value: "Design Personalizado" },
       ],
       img: projeto1,
     },
     {
-      title: "Reabilitação de Complexo Empresarial",
+      title: "Remodelação de Espaço Corporativo",
       location: "Talatona, Luanda",
-      desc: "Intervenção completa de reabilitação estrutural e estética em edifício corporativo, modernizando infraestruturas e sistemas técnicos.",
+      desc: "Reinterpretação de um espaço empresarial com foco em modernização, identidade visual e otimização da experiência dos utilizadores.",
       metrics: [
-        { label: "Área intervencionada", value: "5.200 m²" },
-        { label: "Duração", value: "9 meses" },
         { label: "Tipologia", value: "Comercial" },
+        { label: "Foco", value: "Imagem & Funcionalidade" },
+        { label: "Abordagem", value: "Design Estratégico" },
       ],
       img: projeto2,
     },
     {
-      title: "Infraestrutura Industrial",
+      title: "Espaço Comercial Moderno",
       location: "Viana, Angola",
-      desc: "Construção de unidade industrial com soluções estruturais robustas e preparação para alta carga operacional.",
+      desc: "Desenvolvimento de um espaço comercial funcional e atrativo, com foco na experiência do cliente e organização espacial eficiente.",
       metrics: [
-        { label: "Área construída", value: "12.000 m²" },
-        { label: "Duração", value: "18 meses" },
-        { label: "Tipologia", value: "Industrial" },
+        { label: "Tipologia", value: "Comercial" },
+        { label: "Foco", value: "Experiência do Cliente" },
+        { label: "Abordagem", value: "Design de Espaços" },
       ],
       img: projeto3,
     },
@@ -63,7 +63,7 @@ export default function ProjetosDestaque() {
           </h2>
 
           <p className="text-slate-600 mt-6 text-lg">
-            Casos reais de execução com detalhe técnico, escala e rigor de engenharia.
+            Espaços cuidadosamente concebidos onde arquitetura e design interior se encontram para criar ambientes sofisticados e intemporais.
           </p>
         </motion.div>
 

@@ -16,26 +16,26 @@ import projeto4 from "@/assets/img/projeto4.jpg";
 export default function ProjetosCatalogo() {
   const projetos = [
     {
-      title: "Edifício Residencial Moderno",
-      category: "Construção Civil",
+      title: "Residência Contemporânea",
+      category: "Arquitetura Residencial",
       location: "Luanda, Angola",
       img: projeto1,
     },
     {
-      title: "Reabilitação de Escritórios",
-      category: "Reabilitação",
+      title: "Escritório Corporativo Moderno",
+      category: "Design de Interiores",
       location: "Talatona, Luanda",
       img: projeto2,
     },
     {
-      title: "Infraestrutura Industrial",
-      category: "Engenharia",
+      title: "Apartamento Urbano",
+      category: "Interiores Residenciais",
       location: "Viana, Luanda",
       img: projeto3,
     },
     {
-      title: "Complexo Habitacional",
-      category: "Construção Civil",
+      title: "Espaço Comercial Premium",
+      category: "Arquitetura Comercial",
       location: "Bengo, Angola",
       img: projeto4,
     },
@@ -62,7 +62,7 @@ export default function ProjetosCatalogo() {
           </h2>
 
           <p className="text-slate-600 mt-6 text-lg">
-            Obras executadas com rigor técnico, inovação e foco em resultados reais no setor da construção civil.
+            Uma seleção de projetos de arquitetura e design interior desenvolvidos com foco em estética, funcionalidade e atenção ao detalhe.
           </p>
         </motion.div>
 

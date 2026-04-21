@@ -14,34 +14,34 @@ export default function ProjetosFiltro() {
 
   const categorias = [
     "Todos",
-    "Construção Civil",
-    "Reabilitação",
-    "Engenharia",
-    "Infraestrutura",
+    "Arquitetura Residencial",
+    "Design de Interiores",
+    "Arquitetura Comercial",
+    "Remodelação",
   ];
 
   const projetos = [
     {
-      title: "Edifício Residencial Moderno",
-      category: "Construção Civil",
+      title: "Residência Contemporânea",
+      category: "Arquitetura Residencial",
       location: "Luanda",
       img: projeto1,
     },
     {
-      title: "Reabilitação de Escritórios",
-      category: "Reabilitação",
+      title: "Interior Corporativo Moderno",
+      category: "Design de Interiores",
       location: "Talatona",
       img: projeto2,
     },
     {
-      title: "Infraestrutura Industrial",
-      category: "Engenharia",
+      title: "Apartamento Urbano",
+      category: "Arquitetura Residencial",
       location: "Viana",
       img: projeto3,
     },
     {
-      title: "Complexo Habitacional",
-      category: "Infraestrutura",
+      title: "Espaço Comercial Premium",
+      category: "Arquitetura Comercial",
       location: "Bengo",
       img: projeto4,
     },
@@ -64,7 +64,7 @@ export default function ProjetosFiltro() {
           </h2>
 
           <p className="text-slate-600 mt-5 text-lg">
-            Filtre os nossos projetos por categoria e conheça o nosso portfólio completo de obras.
+            Filtre os nossos projetos por categoria e descubra o nosso portfólio completo de arquitetura e design interior.
           </p>
         </div>
 

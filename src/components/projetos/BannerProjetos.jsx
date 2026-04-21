@@ -48,7 +48,7 @@ export default function BannerProjetos() {
 
           {/* SUBTITLE */}
           <p className="text-amber-200 mt-6 text-lg">
-            Portfólio de obras realizadas com rigor técnico, inovação e excelência em engenharia civil.
+            Portfólio de projetos de arquitetura e design interior, criados com foco em estética, funcionalidade e identidade.
           </p>
 
         </div>
