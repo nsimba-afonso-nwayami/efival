@@ -24,18 +24,18 @@ export default function Hero() {
   const slides = [
     {
       src: heroBg1,
-      title: "Construção civil com qualidade, segurança e inovação",
-      description: "A EFIVAL transforma projetos em estruturas sólidas e modernas em Angola.",
+      title: "Arquitetura que transforma espaços em experiências",
+      description: "Projetamos ambientes modernos, funcionais e sofisticados, pensados para o seu estilo de vida.",
     },
     {
       src: heroBg2,
-      title: "Engenharia moderna para projetos de grande escala",
-      description: "Soluções completas em construção, reabilitação e infraestruturas.",
+      title: "Design interior com identidade e sofisticação",
+      description: "Criamos espaços únicos, onde estética, conforto e detalhe se encontram em perfeita harmonia.",
     },
     {
       src: heroBg3,
-      title: "Transformamos ideias em estruturas reais",
-      description: "Da fundação ao acabamento, entregamos excelência em cada detalhe.",
+      title: "Do conceito ao espaço final",
+      description: "Desenvolvemos projetos completos de arquitetura e interiores com atenção a cada detalhe.",
     },
   ];
 

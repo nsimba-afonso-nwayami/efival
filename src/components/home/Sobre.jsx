@@ -18,20 +18,20 @@ export default function Sobre() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-amber-950 leading-tight tracking-tight">
-            Construímos com qualidade, segurança e visão de futuro
+            Projetamos espaços que combinam estética, conforto e identidade
           </h2>
 
           <div className="space-y-6 text-slate-600 mt-8 leading-relaxed">
             <p className="text-lg">
-              A EFIVAL é uma empresa de construção civil focada em entregar soluções
-              completas em obras, reabilitação e engenharia moderna em Angola.
-              Trabalhamos com rigor técnico e compromisso em cada projeto.
+              A EFIVAL é um estúdio de arquitetura e design interior dedicado a criar
+              ambientes sofisticados, funcionais e alinhados ao estilo de vida de cada cliente.
+              Desenvolvemos projetos personalizados com foco na harmonia entre forma, luz e materiais.
             </p>
 
             <p>
-              Da fundação ao acabamento, garantimos qualidade, durabilidade e
-              inovação em todas as etapas da construção, assegurando que cada 
-              estrutura cumpra os mais altos padrões de exigência.
+              Do conceito ao resultado final, cuidamos de cada detalhe para transformar ideias
+              em espaços únicos. Acreditamos que um bom projeto vai além da estética — ele melhora
+              a forma como se vive, trabalha e se sente dentro de um ambiente.
             </p>
           </div>
 

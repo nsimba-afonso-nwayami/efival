@@ -16,23 +16,23 @@ import projeto4 from "@/assets/img/projeto4.jpg";
 export default function Projetos() {
   const projetos = [
     {
-      title: "Edifício Residencial Moderno",
-      category: "Construção Civil",
+      title: "Residência Contemporânea",
+      category: "Arquitetura Residencial",
       img: projeto1,
     },
     {
-      title: "Reabilitação de Escritórios",
-      category: "Reabilitação",
+      title: "Escritório Corporativo Moderno",
+      category: "Design de Interiores",
       img: projeto2,
     },
     {
-      title: "Infraestrutura Industrial",
-      category: "Engenharia",
+      title: "Apartamento de Alto Padrão",
+      category: "Interiores Residenciais",
       img: projeto3,
     },
     {
-      title: "Complexo Habitacional",
-      category: "Construção Civil",
+      title: "Espaço Comercial Premium",
+      category: "Arquitetura Comercial",
       img: projeto4,
     },
   ];
@@ -58,8 +58,7 @@ export default function Projetos() {
           </h2>
 
           <p className="text-slate-600 mt-6 text-lg">
-            Conheça alguns dos nossos projetos executados com qualidade,
-            inovação e rigor técnico.
+            Conheça alguns dos nossos projetos de arquitetura e design interior, desenvolvidos com foco em estética, funcionalidade e atenção ao detalhe.
           </p>
         </motion.div>
 

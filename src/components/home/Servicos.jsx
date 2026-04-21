@@ -11,20 +11,20 @@ import servico3 from "@/assets/img/servico3.jpg";
 export default function Servicos() {
   const listaServicos = [
     {
-      title: "Construção Civil",
-      desc: "Execução de obras residenciais, comerciais e industriais com elevados padrões de qualidade e segurança.",
+      title: "Arquitetura Residencial",
+      desc: "Projetos de casas modernas e funcionais, pensados para conforto, estética e qualidade de vida.",
       img: servico1,
-      icon: "fa-building"
+      icon: "fa-home"
     },
     {
-      title: "Reabilitação de Obras",
-      desc: "Recuperação e modernização de estruturas com técnicas inovadoras e foco em durabilidade.",
+      title: "Design de Interiores",
+      desc: "Criação de ambientes sofisticados e personalizados, com foco em harmonia, luz e materiais.",
       img: servico2,
-      icon: "fa-tools"
+      icon: "fa-couch"
     },
     {
-      title: "Engenharia & Projetos",
-      desc: "Planeamento e desenvolvimento de projetos técnicos com foco em eficiência, inovação e precisão.",
+      title: "Projetos Arquitetónicos",
+      desc: "Desenvolvimento de conceitos arquitetónicos completos, do estudo inicial à solução final do espaço.",
       img: servico3,
       icon: "fa-drafting-compass"
     }
@@ -45,12 +45,12 @@ export default function Servicos() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-amber-950 leading-tight tracking-tight">
-            Soluções completas em <span className="text-amber-600">Engenharia e Construção</span>
+            Soluções completas em <span className="text-amber-600">Arquitetura e Design Interior</span>
           </h2>
 
           <p className="text-slate-600 mt-6 text-lg leading-relaxed">
-            Oferecemos serviços especializados com foco em qualidade técnica, 
-            segurança normativa e inovação em cada projeto executado em Angola.
+            Desenvolvemos projetos personalizados que combinam estética, funcionalidade e conforto.
+            Cada solução é pensada para criar espaços únicos, adaptados ao estilo de vida e às necessidades de cada cliente em Angola.
           </p>
         </motion.div>
 

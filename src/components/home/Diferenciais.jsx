@@ -13,7 +13,7 @@ export default function Diferenciais() {
     },
     {
       title: "Equipa Especializada",
-      desc: "Profissionais qualificados com experiência comprovada em construção e engenharia.",
+      desc: "Profissionais qualificados com experiência comprovada em arquitetura e design interior.",
       icon: "fa-user-cog",
     },
     {
