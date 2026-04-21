@@ -48,7 +48,7 @@ export default function BannerServicos() {
 
           {/* SUBTITLE */}
           <p className="text-amber-200 mt-6 text-lg">
-            Soluções completas em construção civil, engenharia e infraestrutura em Angola.
+            Soluções completas em arquitetura e design interior, criando espaços funcionais, elegantes e personalizados em Angola.
           </p>
 
         </div>

@@ -6,32 +6,32 @@ import Link from "next/link";
 export default function CatalogoServicos() {
   const servicos = [
     {
-      title: "Construção Civil",
-      desc: "Execução completa de obras com rigor técnico e controlo de qualidade em todas as fases.",
-      items: ["Fundações", "Estruturas", "Acabamentos", "Fiscalização"],
-      nivel: "Alta Complexidade",
-      prazo: "Médio / Longo prazo"
-    },
-    {
-      title: "Reabilitação de Edifícios",
-      desc: "Modernização estrutural e estética de edifícios com técnicas avançadas de engenharia.",
-      items: ["Reforço estrutural", "Remodelação", "Correção de patologias", "Eficiência energética"],
-      nivel: "Alta Precisão",
+      title: "Arquitetura Residencial",
+      desc: "Desenvolvimento de projetos de casas modernas e funcionais, com foco em conforto, estética e integração com o espaço envolvente.",
+      items: ["Conceito arquitetónico", "Plantas e layout", "Estudo de espaços", "Acompanhamento de projeto"],
+      nivel: "Personalizado",
       prazo: "Médio prazo"
     },
     {
-      title: "Engenharia & Projetos",
-      desc: "Planeamento técnico detalhado para garantir eficiência, segurança e otimização de custos.",
-      items: ["Projetos estruturais", "Cálculo técnico", "Consultoria", "Planeamento"],
-      nivel: "Alta Especialização",
+      title: "Reabilitação e Remodelação",
+      desc: "Transformação de espaços existentes através de soluções modernas de design e otimização funcional.",
+      items: ["Redesign de interiores", "Otimização de espaços", "Atualização estética", "Melhoria funcional"],
+      nivel: "Intervenção Técnica",
+      prazo: "Médio prazo"
+    },
+    {
+      title: "Design de Interiores",
+      desc: "Criação de ambientes sofisticados e personalizados, equilibrando estética, conforto e funcionalidade.",
+      items: ["Seleção de materiais", "Iluminação", "Decoração", "Composição de espaços"],
+      nivel: "Alta Personalização",
       prazo: "Curto / Médio prazo"
     },
     {
-      title: "Infraestruturas Urbanas",
-      desc: "Desenvolvimento de soluções urbanas modernas para mobilidade e saneamento.",
-      items: ["Vias", "Drenagem", "Saneamento", "Urbanismo"],
-      nivel: "Grande Escala",
-      prazo: "Longo prazo"
+      title: "Consultoria de Espaços",
+      desc: "Análise e planeamento de espaços residenciais e comerciais para melhorar funcionalidade e estética.",
+      items: ["Estudo de layout", "Otimização espacial", "Direção criativa", "Soluções personalizadas"],
+      nivel: "Estratégico",
+      prazo: "Curto prazo"
     },
   ];
 
@@ -52,12 +52,11 @@ export default function CatalogoServicos() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-amber-950">
-            Catálogo Técnico de <span className="text-amber-600">Serviços</span>
+            Catálogos de <span className="text-amber-600">Design e Arquitetura</span>
           </h2>
 
           <p className="text-slate-600 mt-6 text-lg">
-            Visão detalhada das nossas áreas de atuação com foco em capacidade técnica,
-            escala de execução e especialização.
+            Explore as nossas áreas de atuação em arquitetura e design interior, com soluções pensadas para diferentes tipos de espaços e estilos de vida.
           </p>
         </motion.div>
 

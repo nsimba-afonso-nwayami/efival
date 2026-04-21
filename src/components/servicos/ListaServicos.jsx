@@ -11,38 +11,38 @@ import servico3 from "@/assets/img/servico3.jpg";
 export default function ListaServicos() {
   const servicos = [
     {
-      title: "Construção Civil",
-      subtitle: "Obras residenciais, comerciais e industriais",
-      desc: "Executamos projetos completos de construção civil com elevado rigor técnico, desde a fundação até ao acabamento final. Garantimos segurança, durabilidade e cumprimento rigoroso de prazos.",
+      title: "Arquitetura Residencial",
+      subtitle: "Casas modernas e espaços personalizados",
+      desc: "Desenvolvemos projetos residenciais que combinam funcionalidade, estética e conforto, criando espaços adaptados ao estilo de vida de cada cliente.",
       features: [
-        "Execução de obras completas",
-        "Gestão técnica de obra",
-        "Materiais certificados",
-        "Controlo de qualidade contínuo"
+        "Projetos de casas modernas",
+        "Estudos de espaço e layout",
+        "Integração com o ambiente",
+        "Soluções personalizadas"
       ],
       img: servico1,
     },
     {
-      title: "Reabilitação de Obras",
-      subtitle: "Modernização e reforço estrutural",
-      desc: "Recuperamos e modernizamos estruturas existentes, aplicando soluções técnicas avançadas que aumentam a vida útil das construções e melhoram a eficiência funcional.",
+      title: "Design de Interiores",
+      subtitle: "Ambientes sofisticados e funcionais",
+      desc: "Criamos interiores únicos com foco em harmonia, luz, materiais e identidade, transformando espaços em experiências visuais e funcionais.",
       features: [
-        "Reforço estrutural",
-        "Remodelação completa",
-        "Correção de patologias",
-        "Atualização estética e técnica"
+        "Decoração e composição de espaços",
+        "Seleção de materiais e cores",
+        "Iluminação e ambiente",
+        "Personalização total"
       ],
       img: servico2,
     },
     {
-      title: "Engenharia & Projetos",
-      subtitle: "Planeamento técnico e soluções inteligentes",
-      desc: "Desenvolvemos projetos de engenharia com precisão técnica e foco em eficiência, sustentabilidade e inovação, garantindo soluções seguras e otimizadas.",
+      title: "Projetos Arquitetónicos",
+      subtitle: "Conceção e desenvolvimento de espaços",
+      desc: "Desenvolvemos projetos completos de arquitetura, desde o conceito inicial até à definição detalhada do espaço final.",
       features: [
-        "Projetos estruturais",
-        "Planeamento de obras",
-        "Consultoria técnica",
-        "Otimização de custos"
+        "Conceito arquitetónico",
+        "Plantas e modelação",
+        "Estudos de viabilidade espacial",
+        "Coordenação de projeto"
       ],
       img: servico3,
     },
@@ -63,12 +63,11 @@ export default function ListaServicos() {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-amber-950 leading-tight">
             Serviços profissionais de{" "}
-            <span className="text-amber-600">Engenharia e Construção</span>
+            <span className="text-amber-600">Arquitetura e Design Interior</span>
           </h2>
 
           <p className="text-slate-600 mt-6 text-lg leading-relaxed">
-            Soluções completas e integradas para projetos de qualquer dimensão,
-            com foco em qualidade, segurança e inovação técnica.
+            Desenvolvemos soluções completas de design de espaços, combinando estética, funcionalidade e conforto em projetos residenciais e comerciais.
           </p>
         </motion.div>
 
